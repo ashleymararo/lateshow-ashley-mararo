@@ -63,3 +63,7 @@ def seed_database():
 
 if __name__ == "__main__":
     seed_database()
+
+@app.route('/')
+def home():
+    return "LateShow API is running!"
